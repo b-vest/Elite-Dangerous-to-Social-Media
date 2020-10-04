@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Elite_Dangerous_to_Social_Media_C_Forms_Version.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="consumerKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Add your key here</Value>
+    </Setting>
+    <Setting Name="consumerSecret" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Add you secret here</Value>
+    </Setting>
+    <Setting Name="accessToken" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Add your token here</Value>
+    </Setting>
+    <Setting Name="accessTokenSecret" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Add your token Secret here</Value>
+    </Setting>
+    <Setting Name="logPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Use the button below to brows to the path of the log</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
