@@ -11,6 +11,7 @@ namespace Elite_Dangerous_to_Social_Media_C_Forms_Version
         public Form1()
         {
             InitializeComponent();
+            MessageBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             consumerKeyBox.Text = Properties.Settings.Default.consumerKey;
             consumerSecretBox.Text = Properties.Settings.Default.consumerSecret;
             accessTokenKeyBox.Text = Properties.Settings.Default.accessToken;
@@ -25,7 +26,7 @@ namespace Elite_Dangerous_to_Social_Media_C_Forms_Version
 
         private void sendTestTweetButton_Click(object sender, EventArgs e)
         {
-            SendTweetTextOnly("Elite Dangerous to Twitter Gateway. C# Version" + "\nLoading: " + NewestFileofDirectory(logPathBox.Text) + "\nLoading complete\nMonitoring Log\nOnline at:" + DateTime.Now);
+            SendTweetTextOnly("#EliteDangerous to Social Media Gateway.\nC# Version" + "\nLoading: " + NewestFileofDirectory(logPathBox.Text) + "\nLoading complete\nMonitoring Log\nOnline at:" + DateTime.Now);
         }
         public async void SendTweetTextOnly(string twitterMessage)
         {
@@ -137,6 +138,16 @@ namespace Elite_Dangerous_to_Social_Media_C_Forms_Version
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }
